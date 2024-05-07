@@ -93,12 +93,12 @@ const image_pais = document.getElementById("img");
     if (isBRA) {
       button.classList.remove("EUA");
       button.classList.add("BRA");
-      image_pais.src = "/imgbrasil.png";
+      image_pais.src = "imgbrasil.png";
       console.log("BRA");
     } else {
       button.classList.remove("BRA");
       button.classList.add("EUA");
-      image_pais.src = "/imgeua.png";
+      image_pais.src = "imgeua.png";
       console.log("EUA");
     }
   }
